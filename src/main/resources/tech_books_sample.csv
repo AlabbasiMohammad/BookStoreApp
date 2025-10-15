@@ -1,0 +1,51 @@
+id,title,author,category,description,price,stock,published_date,cover_image
+1,Clean Code: A Handbook of Agile Software Craftsmanship,Robert C. Martin,Software Engineering,"Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees.",37.95,100,2008-08-11,https://example.com/cleancode.jpg
+2,The Pragmatic Programmer: Your Journey to Mastery,Andrew Hunt & David Thomas,Software Engineering,"A guide to becoming an adaptable, effective programmer.",42.0,80,1999-10-30,https://example.com/pragmatic.jpg
+3,Design Patterns: Elements of Reusable Object‑Oriented Software,Erich Gamma; Richard Helm; Ralph Johnson; John Vlissides,Software Engineering,Captures 23 classic software design patterns and how to apply them.,54.5,60,1994-10-31,https://example.com/designpatterns.jpg
+4,Refactoring: Improving the Design of Existing Code,Martin Fowler,Software Engineering,A guide to refactoring — how to restructure existing code without changing its behavior.,47.25,70,1999-07-08,https://example.com/refactoring.jpg
+5,Introduction to Algorithms,Thomas H. Cormen; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein,Algorithms,"Comprehensive book on algorithms, covering many topics in depth.",99.99,30,2009-07-31,https://example.com/algorithms.jpg
+6,You Don’t Know JS: Up & Going,Kyle Simpson,JavaScript,An introduction to core JavaScript concepts in the You Don’t Know JS series.,29.99,120,2015-03-10,https://example.com/ydkjs.jpg
+7,JavaScript: The Good Parts,Douglas Crockford,JavaScript,A deep dive into the most elegant features of JavaScript.,25.0,95,2008-05-01,https://example.com/jsgoodparts.jpg
+8,Cracking the Coding Interview,Gayle Laakmann McDowell,Interview Prep,"150 programming interview questions and solutions, plus interview strategies.",39.95,50,2015-07-01,https://example.com/cracking.jpg
+9,Clean Architecture: A Craftsman's Guide to Software Structure and Design,Robert C. Martin,Architecture,Building maintainable and flexible enterprise software architectures.,45.95,40,2017-09-20,https://example.com/cleana.jpg
+10,Effective Java,Joshua Bloch,Java,A book of best practices for Java programming (3rd Edition).,54.0,55,2018-01-06,https://example.com/effectivejava.jpg
+11,Code Complete,Steve McConnell,Software Engineering,A comprehensive guide to software construction.,58.99,75,2004-06-09,https://example.com/codecomplete.jpg
+12,Head First Design Patterns,Eric Freeman & Elisabeth Robson,Software Engineering,A brain-friendly guide to design patterns.,44.95,80,2004-10-25,https://example.com/headfirstdp.jpg
+13,The Mythical Man-Month,Frederick P. Brooks Jr.,Project Management,Classic essays on software engineering and project scheduling.,35.5,65,1975-01-01,https://example.com/mythical.jpg
+14,Peopleware: Productive Projects and Teams,Tom DeMarco & Timothy Lister,Project Management,Explores the human side of software development.,32.99,60,1987-01-01,https://example.com/peopleware.jpg
+15,Soft Skills: The Software Developer’s Life Manual,John Sonmez,Career,Covers personal and career development for developers.,29.99,85,2014-12-29,https://example.com/softskills.jpg
+16,Algorithms to Live By,Brian Christian & Tom Griffiths,Computer Science,How computer algorithms can be applied to everyday human decision-making.,18.99,90,2016-04-19,https://example.com/algorithmsliveby.jpg
+17,Artificial Intelligence: A Modern Approach,Stuart Russell & Peter Norvig,AI,The standard textbook for artificial intelligence.,125.0,40,2020-12-01,https://example.com/aima.jpg
+18,Deep Learning,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",AI,Comprehensive text on deep learning theory and practice.,89.99,35,2016-11-18,https://example.com/deeplearning.jpg
+19,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",Aurélien Géron,AI,Practical guide to building machine learning systems with Python.,64.99,55,2019-10-15,https://example.com/handsml.jpg
+20,Python Crash Course,Eric Matthes,Programming,A fast-paced introduction to Python programming.,39.95,120,2019-05-03,https://example.com/pythoncrash.jpg
+21,Code Complete,Steve McConnell,Software Engineering,A comprehensive guide to software construction.,58.99,75,2004-06-09,https://example.com/codecomplete.jpg
+22,Head First Design Patterns,Eric Freeman & Elisabeth Robson,Software Engineering,A brain-friendly guide to design patterns.,44.95,80,2004-10-25,https://example.com/headfirstdp.jpg
+23,The Mythical Man-Month,Frederick P. Brooks Jr.,Project Management,Classic essays on software engineering and project scheduling.,35.5,65,1975-01-01,https://example.com/mythical.jpg
+24,Peopleware: Productive Projects and Teams,Tom DeMarco & Timothy Lister,Project Management,Explores the human side of software development.,32.99,60,1987-01-01,https://example.com/peopleware.jpg
+25,Soft Skills: The Software Developer’s Life Manual,John Sonmez,Career,Covers personal and career development for developers.,29.99,85,2014-12-29,https://example.com/softskills.jpg
+26,Algorithms to Live By,Brian Christian & Tom Griffiths,Computer Science,How computer algorithms can be applied to everyday human decision-making.,18.99,90,2016-04-19,https://example.com/algorithmsliveby.jpg
+27,Artificial Intelligence: A Modern Approach,Stuart Russell & Peter Norvig,AI,The standard textbook for artificial intelligence.,125.0,40,2020-12-01,https://example.com/aima.jpg
+28,Deep Learning,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",AI,Comprehensive text on deep learning theory and practice.,89.99,35,2016-11-18,https://example.com/deeplearning.jpg
+29,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",Aurélien Géron,AI,Practical guide to building machine learning systems with Python.,64.99,55,2019-10-15,https://example.com/handsml.jpg
+30,Python Crash Course,Eric Matthes,Programming,A fast-paced introduction to Python programming.,39.95,120,2019-05-03,https://example.com/pythoncrash.jpg
+31,Code Complete,Steve McConnell,Software Engineering,A comprehensive guide to software construction.,58.99,75,2004-06-09,https://example.com/codecomplete.jpg
+32,Head First Design Patterns,Eric Freeman & Elisabeth Robson,Software Engineering,A brain-friendly guide to design patterns.,44.95,80,2004-10-25,https://example.com/headfirstdp.jpg
+33,The Mythical Man-Month,Frederick P. Brooks Jr.,Project Management,Classic essays on software engineering and project scheduling.,35.5,65,1975-01-01,https://example.com/mythical.jpg
+34,Peopleware: Productive Projects and Teams,Tom DeMarco & Timothy Lister,Project Management,Explores the human side of software development.,32.99,60,1987-01-01,https://example.com/peopleware.jpg
+35,Soft Skills: The Software Developer’s Life Manual,John Sonmez,Career,Covers personal and career development for developers.,29.99,85,2014-12-29,https://example.com/softskills.jpg
+36,Algorithms to Live By,Brian Christian & Tom Griffiths,Computer Science,How computer algorithms can be applied to everyday human decision-making.,18.99,90,2016-04-19,https://example.com/algorithmsliveby.jpg
+37,Artificial Intelligence: A Modern Approach,Stuart Russell & Peter Norvig,AI,The standard textbook for artificial intelligence.,125.0,40,2020-12-01,https://example.com/aima.jpg
+38,Deep Learning,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",AI,Comprehensive text on deep learning theory and practice.,89.99,35,2016-11-18,https://example.com/deeplearning.jpg
+39,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",Aurélien Géron,AI,Practical guide to building machine learning systems with Python.,64.99,55,2019-10-15,https://example.com/handsml.jpg
+40,Python Crash Course,Eric Matthes,Programming,A fast-paced introduction to Python programming.,39.95,120,2019-05-03,https://example.com/pythoncrash.jpg
+41,Code Complete,Steve McConnell,Software Engineering,A comprehensive guide to software construction.,58.99,75,2004-06-09,https://example.com/codecomplete.jpg
+42,Head First Design Patterns,Eric Freeman & Elisabeth Robson,Software Engineering,A brain-friendly guide to design patterns.,44.95,80,2004-10-25,https://example.com/headfirstdp.jpg
+43,The Mythical Man-Month,Frederick P. Brooks Jr.,Project Management,Classic essays on software engineering and project scheduling.,35.5,65,1975-01-01,https://example.com/mythical.jpg
+44,Peopleware: Productive Projects and Teams,Tom DeMarco & Timothy Lister,Project Management,Explores the human side of software development.,32.99,60,1987-01-01,https://example.com/peopleware.jpg
+45,Soft Skills: The Software Developer’s Life Manual,John Sonmez,Career,Covers personal and career development for developers.,29.99,85,2014-12-29,https://example.com/softskills.jpg
+46,Algorithms to Live By,Brian Christian & Tom Griffiths,Computer Science,How computer algorithms can be applied to everyday human decision-making.,18.99,90,2016-04-19,https://example.com/algorithmsliveby.jpg
+47,Artificial Intelligence: A Modern Approach,Stuart Russell & Peter Norvig,AI,The standard textbook for artificial intelligence.,125.0,40,2020-12-01,https://example.com/aima.jpg
+48,Deep Learning,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",AI,Comprehensive text on deep learning theory and practice.,89.99,35,2016-11-18,https://example.com/deeplearning.jpg
+49,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",Aurélien Géron,AI,Practical guide to building machine learning systems with Python.,64.99,55,2019-10-15,https://example.com/handsml.jpg
+50,Python Crash Course,Eric Matthes,Programming,A fast-paced introduction to Python programming.,39.95,120,2019-05-03,https://example.com/pythoncrash.jpg

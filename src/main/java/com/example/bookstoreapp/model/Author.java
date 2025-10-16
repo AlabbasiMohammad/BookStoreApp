@@ -1,48 +1,27 @@
 package com.example.bookstoreapp.model;
 
 import jakarta.persistence.*;
+import lombok.*;
 
+import java.time.LocalDate;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "author")
+@Data @NoArgsConstructor @AllArgsConstructor
 public class Author {
-
-
     @Id
-    private Long author_id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String name;
-    private Date date_of_birth;
-    private String email;
+    @Column(length = 1000)
+    private String biography;
+    private LocalDate birthDate;
+    private String nationality;
+    private String photoUrl;
 
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
+    private List<Book> books;
 
-
-
-
-    public Author() {
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Date getDate_of_birth() {
-        return date_of_birth;
-    }
-
-    public void setDate_of_birth(Date date_of_birth) {
-        this.date_of_birth = date_of_birth;
-    }
-
-    public void setAuthor_id(Long authorId) {
-        this.author_id = authorId;
-    }
-
-    public Long getAuthor_id() {
-        return author_id;
-    }
 }

@@ -1,38 +1,17 @@
 package com.example.bookstoreapp.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "country")
+@Data @NoArgsConstructor @AllArgsConstructor
 public class Country {
-
     @Id
-    private Long code;
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer code;
     private String name;
-
-
-
-    public Country() {
-    }
-
-    public void setCode(Long code) {
-        this.code = code;
-    }
-
-    public Long getCode() {
-        return code;
-    }
-
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }

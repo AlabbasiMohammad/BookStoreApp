@@ -1,6 +1,8 @@
 package com.example.bookstoreapp.controller;
 
 import com.example.bookstoreapp.model.Book;
+import com.example.bookstoreapp.service.BookService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.example.bookstoreapp.repository.BookRepository;
 
@@ -11,24 +13,23 @@ import java.util.List;
 @CrossOrigin(value = {"http://localhost:3000"})
 public class BookController {
 
-    private final BookRepository bookRepository;
+    private final BookService bookService;
 
-    public BookController(BookRepository bookRepository) {
-        this.bookRepository = bookRepository;
+    @Autowired
+    public BookController(BookService bookService) {
+        this.bookService = bookService;
     }
-
-
 
     @GetMapping("/books")
     List<Book> getAll()
     {
-        return bookRepository.findAll();
+        return bookService.getAllBooks();
     }
 
     @PostMapping("/book")
     Book addBook(@RequestBody Book book)
     {
-        return bookRepository.save(book);
+        return bookService.addBook(book);
     }
 
 

@@ -4,7 +4,6 @@ import com.example.bookstoreapp.model.Book;
 import com.example.bookstoreapp.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.example.bookstoreapp.repository.BookRepository;
 
 import java.util.List;
 

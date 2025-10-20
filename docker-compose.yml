@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:15
+    container_name: bookstore-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: book3db
+    ports:
+      - "5433:5432"  # host 5433 -> container 5432
+
+  app:
+    image: bookstoreapp:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bookstoreapp
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/book3db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: root
+      SERVER_PORT: 8081
+    ports:
+      - "8081:8081"
+
+volumes:
+  db-data:

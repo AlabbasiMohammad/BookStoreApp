@@ -1,5 +1,6 @@
 package com.example.bookstoreapp.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,10 +22,11 @@ public class Category {
     private String name;
     private String description;
 
-    @ManyToOne
-    private Category parentCategory;
+//    @ManyToOne
+//    private Category parentCategory;
 
-    @OneToMany(mappedBy = "category")
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<Book> books;
 
 

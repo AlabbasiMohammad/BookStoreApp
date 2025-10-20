@@ -21,9 +21,9 @@ public class Cart {
     private LocalDateTime createdAt = LocalDateTime.now();
     private LocalDateTime updatedAt = LocalDateTime.now();
 
-    @OneToOne
-    private User user;
-
-    @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL)
-    private List<CartItem> items;
+//    @OneToOne
+//    private User user;
+//
+//    @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL)
+//    private List<CartItem> items;
 }

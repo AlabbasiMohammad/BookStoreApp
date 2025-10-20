@@ -2,3 +2,8 @@ POST http://localhost:8081/api/user
 Content-Type: application/json
 
 ###
+
+GET http://localhost:8081/api/publishers
+###
+
+GET http://localhost:8081/api/authors

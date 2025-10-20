@@ -17,6 +17,6 @@ public class Payment {
     private String transactionId;
     private LocalDateTime paidAt;
 
-    @OneToOne
-    private Order order;
+//    @OneToOne
+//    private Order order;
 }

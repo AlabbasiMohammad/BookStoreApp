@@ -58,7 +58,6 @@ public class UserController {
     }
 
 
-
     @DeleteMapping(value = {"/user/{id}"})
     String deleteUser(@PathVariable Long id)
     {

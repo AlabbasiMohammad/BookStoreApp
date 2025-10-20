@@ -29,20 +29,20 @@ public class BookService {
         return bookRepository.save(book);
     }
 
-    public Book updateBook(Long id, Book bookDetails) {
-        Book book = bookRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Book not found"));
-        book.setTitle(bookDetails.getTitle());
-        book.setAuthor(bookDetails.getAuthor());
-        book.setGenre(bookDetails.getGenre());
-        book.setCategory(bookDetails.getCategory());
-        book.setDescription(bookDetails.getDescription());
-        book.setPrice(bookDetails.getPrice());
-        book.setStock(bookDetails.getStock());
-        book.setPublished_date(bookDetails.getPublished_date());
-        book.setCover_image(bookDetails.getCover_image());
-        return bookRepository.save(book);
-    }
+//    public Book updateBook(Long id, Book bookDetails) {
+//        Book book = bookRepository.findById(id)
+//                .orElseThrow(() -> new RuntimeException("Book not found"));
+//        book.setTitle(bookDetails.getTitle());
+//        book.setAuthor(bookDetails.getAuthor());
+//        book.setGenre(bookDetails.getGenre());
+//        book.setCategory(bookDetails.getCategory());
+//        book.setDescription(bookDetails.getDescription());
+//        book.setPrice(bookDetails.getPrice());
+//        book.setStock(bookDetails.getStock());
+//        book.setPublished_date(bookDetails.getPublished_date());
+//        book.setCover_image(bookDetails.getCover_image());
+//        return bookRepository.save(book);
+//    }
 
     public void deleteBook(Long id) {
         bookRepository.deleteById(id);

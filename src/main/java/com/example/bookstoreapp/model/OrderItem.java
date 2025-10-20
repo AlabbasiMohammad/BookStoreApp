@@ -11,11 +11,11 @@ public class OrderItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    private Order order;
-
-    @ManyToOne
-    private Book book;
+//    @ManyToOne
+//    private Order order;
+//
+//    @ManyToOne
+//    private Book book;
 
     private Integer quantity;
     private Double priceAtTime;

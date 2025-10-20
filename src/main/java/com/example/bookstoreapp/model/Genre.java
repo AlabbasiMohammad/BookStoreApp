@@ -1,6 +1,7 @@
 package com.example.bookstoreapp.model;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,6 +18,7 @@ public class Genre {
     private Long id;
     private String name;
 
-    @OneToMany(mappedBy = "genre")
+    @OneToMany(mappedBy = "genre",  cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<Book> books;
 }

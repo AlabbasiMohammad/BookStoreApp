@@ -1,5 +1,7 @@
 package com.example.bookstoreapp.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "books_test")
+@Table(name = "books")
 @Data @NoArgsConstructor @AllArgsConstructor
 public class Book {
     @Id
@@ -43,6 +45,7 @@ public class Book {
     private Publisher publisher;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<Review> reviews;
 
 }

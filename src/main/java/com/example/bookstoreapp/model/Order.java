@@ -19,16 +19,16 @@ public class Order {
     private String status;
     private Double totalAmount;
 
-    @ManyToOne
-    private User user;
-
-    @ManyToOne
-    private Address shippingAddress;
-
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
-    private List<OrderItem> items;
-
-    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
-    private Payment payment;
+//    @ManyToOne
+//    private User user;
+//
+//    @ManyToOne
+//    private Address shippingAddress;
+//
+//    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+//    private List<OrderItem> items;
+//
+//    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
+//    private Payment payment;
 
 }

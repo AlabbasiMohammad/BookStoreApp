@@ -11,11 +11,11 @@ public class CartItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    private Cart cart;
-
-    @ManyToOne
-    private Book book;
+//    @ManyToOne
+//    private Cart cart;
+//
+//    @ManyToOne
+//    private Book book;
 
     private Integer quantity;
     private Double priceAtTime;

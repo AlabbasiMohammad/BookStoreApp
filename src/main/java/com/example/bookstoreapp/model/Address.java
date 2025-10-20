@@ -1,6 +1,7 @@
 package com.example.bookstoreapp.model;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,6 +23,12 @@ public class Address {
     private String country;
     private Boolean isDefault;
 
-    @ManyToOne
-    private User user;
+//    @ManyToOne
+//    @JoinColumn(name = "country_code", referencedColumnName = "code")
+//    @JsonIgnore
+//    private Country country;
+
+
+//    @ManyToOne
+//    private User user;
 }
